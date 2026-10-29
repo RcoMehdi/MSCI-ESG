@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "msci-enrichment"
+version = "0.2.0"
+description = "Enrichissement MSCI avec conservation des templates Excel"
+requires-python = ">=3.11"
+dependencies = ["requests>=2.32,<3", "openpyxl>=3.1,<4", "python-dotenv>=1,<2"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10", "ruff>=0.9,<1"]
+
+[project.scripts]
+msci-enrich = "msci_enrichment.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
