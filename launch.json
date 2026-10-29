@@ -1,0 +1,1 @@
+{"version": "0.2.0", "configurations": [{"name": "MSCI: enrichir", "type": "debugpy", "request": "launch", "module": "msci_enrichment.cli", "args": ["run"], "cwd": "${workspaceFolder}", "console": "integratedTerminal"}]}

@@ -1,0 +1,13 @@
+{
+  "template": "templates/mapping.xlsx",
+  "input": "data/input.xlsx",
+  "output": "output/import_msci.xlsx",
+  "diagnostics": "output/diagnostics.json",
+  "mapping": "config/mapping.json",
+  "input_sheets": {"issuer": "Titres", "fund": "Fonds"},
+  "isin_column": "ISIN",
+  "fund_products": [],
+  "batch_size": 50,
+  "timeout_seconds": 60,
+  "max_retries": 3
+}

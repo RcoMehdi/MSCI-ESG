@@ -1,0 +1,2 @@
+[console_scripts]
+msci-enrich = msci_enrichment.cli:main

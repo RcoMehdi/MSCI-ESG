@@ -1,0 +1,1116 @@
+{
+  "issuer": {
+    "ISSUER_NAME": {
+      "kind": "metadata",
+      "source": "ISSUER_NAME",
+      "note": "Metadonnee emetteur, jamais remplacee par un identifiant de titre.",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "Client_ID": {
+      "kind": "input",
+      "source": "Client_ID",
+      "note": "Champ metier facultatif fourni en entree; sinon vide.",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "Security_Status": {
+      "kind": "input",
+      "source": "Security_Status",
+      "note": "Champ metier facultatif fourni en entree; sinon vide.",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "ISSUER_TICKER": {
+      "kind": "metadata",
+      "source": "ISSUER_TICKER",
+      "note": "Metadonnee emetteur, jamais remplacee par un identifiant de titre.",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "ISSUER_CUSIP": {
+      "kind": "metadata",
+      "source": "ISSUER_CUSIP",
+      "note": "Metadonnee emetteur, jamais remplacee par un identifiant de titre.",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "ISSUER_SEDOL": {
+      "kind": "metadata",
+      "source": "ISSUER_SEDOL",
+      "note": "Metadonnee emetteur, jamais remplacee par un identifiant de titre.",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "ISSUER_ISIN": {
+      "kind": "metadata",
+      "source": "ISSUER_ISIN",
+      "note": "Metadonnee emetteur, jamais remplacee par un identifiant de titre.",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "ISSUER_CNTRY_DOMICILE": {
+      "kind": "factor",
+      "source": "ISSUER_CNTRY_DOMICILE",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "ISSUERID": {
+      "kind": "metadata",
+      "source": "ISSUERID",
+      "note": "Metadonnee emetteur, jamais remplacee par un identifiant de titre.",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "ESG_RATING_DATE": {
+      "kind": "factor",
+      "source": "ESG_RATING_DATE",
+      "note": "Code exact uniquement si present au catalogue issuer. Aucun remplacement approximatif. Definition/unite a valider.",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "ESG_RATING": {
+      "kind": "factor",
+      "source": "IVA_COMPANY_RATING",
+      "note": "Candidat autorise dans Priorites de verification; verifier definition et unite avant production.",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "ESG_SCORE": {
+      "kind": "factor",
+      "source": "INDUSTRY_ADJUSTED_SCORE",
+      "note": "Candidat autorise dans Priorites de verification; verifier definition et unite avant production.",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "ESG_ENVIRONMENTAL_SCORE": {
+      "kind": "factor",
+      "source": "ESG_ENVIRONMENTAL_SCORE",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "ESG_ENVIRONMENTAL_WEIGHT": {
+      "kind": "factor",
+      "source": "ENVIRONMENTAL_PILLAR_WEIGHT",
+      "note": "Candidat autorise dans Priorites de verification; verifier definition et unite avant production.",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "ESG_SOCIAL_SCORE": {
+      "kind": "factor",
+      "source": "ESG_SOCIAL_SCORE",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "ESG_SOCIAL_WEIGHT": {
+      "kind": "factor",
+      "source": "SOCIAL_PILLAR_WEIGHT",
+      "note": "Candidat autorise dans Priorites de verification; verifier definition et unite avant production.",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "ESG_GOVERNANCE_SCORE": {
+      "kind": "factor",
+      "source": "ESG_GOVERNANCE_SCORE",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "ESG_GOVERNANCE_WEIGHT": {
+      "kind": "factor",
+      "source": "GOVERNANCE_PILLAR_WEIGHT",
+      "note": "Candidat autorise dans Priorites de verification; verifier definition et unite avant production.",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "CARBON_EMISSIONS_SCOPE_12_INTEN": {
+      "kind": "factor",
+      "source": "CARBON_EMISSIONS_SCOPE_12_INTEN",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "CARBON_GOVERNMENT_CO2_INTENSITY_GDP_TONPERMN": {
+      "kind": "factor",
+      "source": "CARBON_GOVERNMENT_CO2_INTENSITY_GDP_TONPERMN",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "CARBON_EMISSIONS_EVIC_SCOPE_12_INTEN": {
+      "kind": "factor",
+      "source": "CARBON_EMISSIONS_EVIC_SCOPE_12_INTEN",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "THERMAL_COAL_MAX_REV_PCT": {
+      "kind": "factor",
+      "source": "THERMAL_COAL_MAX_REV_PCT",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "UNGC_COMPLIANCE": {
+      "kind": "factor",
+      "source": "UNGC_COMPLIANCE",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "CB_TIE": {
+      "kind": "factor",
+      "source": "CB_TIE",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "LM_TIE": {
+      "kind": "factor",
+      "source": "LM_TIE",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "ESG_RATING_TREND": {
+      "kind": "factor",
+      "source": "IVA_RATING_TREND",
+      "note": "Candidat autorise dans Priorites de verification; verifier definition et unite avant production.",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FOSSIL_FUEL_RESERVES": {
+      "kind": "factor",
+      "source": "FOSSIL_FUEL_RESERVES",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "THERMAL_COAL_RESERVES": {
+      "kind": "factor",
+      "source": "THERMAL_COAL_RESERVES",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "CBN_LCT_CATEGORY": {
+      "kind": "factor",
+      "source": "CBN_LCT_CATEGORY",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "CBN_LCT_SCORE": {
+      "kind": "factor",
+      "source": "CBN_LCT_SCORE",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "ITR": {
+      "kind": "factor",
+      "source": "ITR",
+      "note": "Code emetteur exact uniquement si expose. Ne jamais substituer FUND_IMPLIED_TEMP_RISE.",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "EST_EU_TAXONOMY_MAX_REV": {
+      "kind": "factor",
+      "source": "EST_EU_TAXONOMY_MAX_REV",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "PCT_NONRENEW_CONSUMP_PROD": {
+      "kind": "factor",
+      "source": "PCT_NONRENEW_CONSUMP_PROD",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "ACTIVE_FF_SECTOR_EXPOSURE": {
+      "kind": "factor",
+      "source": "ACTIVE_FF_SECTOR_EXPOSURE",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "CT_ALT_ENERGY_MAX_REV": {
+      "kind": "factor",
+      "source": "CT_ALT_ENERGY_MAX_REV",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "CT_ENERGY_EFF_MAX_REV": {
+      "kind": "factor",
+      "source": "CT_ENERGY_EFF_MAX_REV",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "CT_TOTAL_MAX_REV": {
+      "kind": "factor",
+      "source": "CT_TOTAL_MAX_REV",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "ENVIRONMENT_CONTROVERSY_SCORE": {
+      "kind": "factor",
+      "source": "ENVIRONMENT_CONTROVERSY_SCORE",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "THERMAL_COAL_INVOLVEMENT_ANYPCT": {
+      "kind": "factor",
+      "source": "THERMAL_COAL_INVOLVEMENT_ANYPCT",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "CARBON_SCOPE_12_INTEN_3Y_TREND_NM": {
+      "kind": "factor",
+      "source": "CARBON_SCOPE_12_INTEN_3Y_TREND_NM",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "CBN_RENEW_ENER_USE_M": {
+      "kind": "factor",
+      "source": "CBN_RENEW_ENER_USE_M",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "OIL_SANDS_RESERVES": {
+      "kind": "factor",
+      "source": "OIL_SANDS_RESERVES",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "SHALE_GAS_RESERVES": {
+      "kind": "factor",
+      "source": "SHALE_GAS_RESERVES",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "SI_TOTAL_MAX_REV": {
+      "kind": "factor",
+      "source": "SI_TOTAL_MAX_REV",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "SI_SUST_IMPACT_MAX_REV": {
+      "kind": "factor",
+      "source": "SI_SUST_IMPACT_MAX_REV",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "SRI_CRITERIA": {
+      "kind": "factor",
+      "source": "SRI_CRITERIA",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "ALC_MAX_REV": {
+      "kind": "factor",
+      "source": "ALC_MAX_REV",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "CWEAP_TIE": {
+      "kind": "factor",
+      "source": "CWEAP_TIE",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "WEAP_BIO_CHEM_MAX_REV_PCT": {
+      "kind": "factor",
+      "source": "WEAP_BIO_CHEM_MAX_REV_PCT",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "CONTRO_WEAP_CBLMBW_ANYTIE": {
+      "kind": "factor",
+      "source": "CONTRO_WEAP_CBLMBW_ANYTIE",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "TOB_MAX_REV_PCT": {
+      "kind": "factor",
+      "source": "TOB_MAX_REV_PCT",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "TOB_DIST_MAX_REV_PCT": {
+      "kind": "factor",
+      "source": "TOB_DIST_MAX_REV_PCT",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "TOB_OWN_BY": {
+      "kind": "factor",
+      "source": "TOB_OWN_BY",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "TOB_OWN_OF": {
+      "kind": "factor",
+      "source": "TOB_OWN_OF",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "AE_DIST_MAX_REV_PCT": {
+      "kind": "factor",
+      "source": "AE_DIST_MAX_REV_PCT",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "AE_PROD_MAX_REV_PCT": {
+      "kind": "factor",
+      "source": "AE_PROD_MAX_REV_PCT",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "AE_RET_MAX_REV_PCT": {
+      "kind": "factor",
+      "source": "AE_RET_MAX_REV_PCT",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "AE_OWN_BY": {
+      "kind": "factor",
+      "source": "AE_OWN_BY",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "AE_OWN_OF": {
+      "kind": "factor",
+      "source": "AE_OWN_OF",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "GAM_LICEN_MAX_REV_PCT": {
+      "kind": "factor",
+      "source": "GAM_LICEN_MAX_REV_PCT",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "GAM_OWN_OF": {
+      "kind": "factor",
+      "source": "GAM_OWN_OF",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "GAM_OWN_BY": {
+      "kind": "factor",
+      "source": "GAM_OWN_BY",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "GAM_OPER_MAX_REV_PCT": {
+      "kind": "factor",
+      "source": "GAM_OPER_MAX_REV_PCT",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "GAM_SUPPOR_MAX_REV_PCT": {
+      "kind": "factor",
+      "source": "GAM_SUPPOR_MAX_REV_PCT",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "OIL_GAS_ANY_TIE": {
+      "kind": "factor",
+      "source": "OIL_GAS_ANY_TIE",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "NACE_GROUP_CODE": {
+      "kind": "factor",
+      "source": "NACE_GROUP_CODE",
+      "note": "Code exact uniquement si present au catalogue issuer. Aucun remplacement approximatif. Definition/unite a valider.",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "PALM_TOTAL_MAX_REV_PCT": {
+      "kind": "factor",
+      "source": "PALM_TOTAL_MAX_REV_PCT",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "PALM_DIST_MAX_REV_PCT": {
+      "kind": "factor",
+      "source": "PALM_DIST_MAX_REV_PCT",
+      "note": "Code exact uniquement si present au catalogue issuer. Aucun remplacement approximatif. Definition/unite a valider.",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "PALM_PROD_MAX_REV_PCT": {
+      "kind": "factor",
+      "source": "PALM_PROD_MAX_REV_PCT",
+      "note": "Code exact uniquement si present au catalogue issuer. Aucun remplacement approximatif. Definition/unite a valider.",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "TOB_PROD_MAX_REV_PCT": {
+      "kind": "factor",
+      "source": "TOB_PROD_MAX_REV_PCT",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "TOB_RET_MAX_REV_PCT": {
+      "kind": "factor",
+      "source": "TOB_RET_MAX_REV_PCT",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "TOB_SUPP_MAX_REV_PCT": {
+      "kind": "factor",
+      "source": "TOB_SUPP_MAX_REV_PCT",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "ENVIRONMENT_CONTROVERSY_FLAG": {
+      "kind": "factor",
+      "source": "ENVIRONMENT_CONTROVERSY_FLAG",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "CARBON_EMISSIONS_SALES_EUR_SCOPE123_INTEN": {
+      "kind": "factor",
+      "source": "CARBON_EMISSIONS_SALES_EUR_SCOPE123_INTEN",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "HAS_SBTI_APPROVED_TARGET": {
+      "kind": "factor",
+      "source": "HAS_SBTI_APPROVED_TARGET",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "OPS_PROT_BIODIV_CONTROVS": {
+      "kind": "factor",
+      "source": "OPS_PROT_BIODIV_CONTROVS",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "GENDER_PAY_GAP_RATIO": {
+      "kind": "factor",
+      "source": "GENDER_PAY_GAP_RATIO",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "LABOR_RIGHTS_CONTROVERSY_FLAG": {
+      "kind": "factor",
+      "source": "LABOR_RIGHTS_CONTROVERSY_FLAG",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "LABOR_RIGHTS_DIVERSITY_FLAG": {
+      "kind": "factor",
+      "source": "LABOR_RIGHTS_DIVERSITY_FLAG",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "DIVERSITY_PROGRAMS_M": {
+      "kind": "factor",
+      "source": "DIVERSITY_PROGRAMS_M",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "HUMAN_CAPITAL_DEV_MGMT_SCORE": {
+      "kind": "factor",
+      "source": "HUMAN_CAPITAL_DEV_MGMT_SCORE",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "OVERALL_FLAG": {
+      "kind": "factor",
+      "source": "OVERALL_FLAG",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "MECH_UN_GLOBAL_COMPACT": {
+      "kind": "factor",
+      "source": "MECH_UN_GLOBAL_COMPACT",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "LABOR_RIGHTS_EMP_HS_FLAG": {
+      "kind": "factor",
+      "source": "LABOR_RIGHTS_EMP_HS_FLAG",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "TRIR": {
+      "kind": "factor",
+      "source": "TRIR",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "CONTR_CONTROVERSIAL_WORKPLACE_M": {
+      "kind": "factor",
+      "source": "CONTR_CONTROVERSIAL_WORKPLACE_M",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "CONTR_HEALTH_SAFETY_M": {
+      "kind": "factor",
+      "source": "CONTR_HEALTH_SAFETY_M",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "BOARD_INDEP_OTHER_INTERESTS_PCT": {
+      "kind": "factor",
+      "source": "BOARD_INDEP_OTHER_INTERESTS_PCT",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FM_BOARD_RATIO": {
+      "kind": "factor",
+      "source": "FEMALE_DIRECTORS_PCT",
+      "note": "Candidat autorise dans Priorites de verification; verifier definition et unite avant production.",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "OWNERSHIP_AND_CONTROL_SCORE": {
+      "kind": "factor",
+      "source": "OWNERSHIP_AND_CONTROL_SCORE",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "PAY_CONTROVERSY": {
+      "kind": "factor",
+      "source": "PAY_CONTROVERSY",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "CONTR_BRIB_CORRUPT_N_SEVERE": {
+      "kind": "factor",
+      "source": "CONTR_BRIB_CORRUPT_N_SEVERE",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "CORR_BRIB_POLICY_UN": {
+      "kind": "factor",
+      "source": "CORR_BRIB_POLICY_UN",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "PALM_RSPO_PCT": {
+      "kind": "factor",
+      "source": "PALM_RSPO_PCT",
+      "note": "Code exact uniquement si present au catalogue issuer. Aucun remplacement approximatif. Definition/unite a valider.",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    }
+  },
+  "fund": {
+    "FUND_SHARE_CLASS_ID": {
+      "kind": "blocked",
+      "source": null,
+      "note": "Ne pas assimiler automatiquement cet identifiant au MDSUID sans definition metier.",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_NAME": {
+      "kind": "coverage",
+      "source": "FUND_NAME",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "Client_ID": {
+      "kind": "input",
+      "source": "Client_ID",
+      "note": "Champ metier facultatif fourni en entree; sinon vide.",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "Security_Status": {
+      "kind": "input",
+      "source": "Security_Status",
+      "note": "Champ metier facultatif fourni en entree; sinon vide.",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_ISIN": {
+      "kind": "input_isin",
+      "source": null,
+      "note": "ISIN de la part fourni en entree.",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_LATEST_HOLDINGS_DATE": {
+      "kind": "factor",
+      "source": "FUND_LATEST_HOLDINGS_DATE",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_LIPPER_GLOBAL_CLASS": {
+      "kind": "factor",
+      "source": "FUND_LIPPER_GLOBAL_CLASS",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_LIPPER_GLOBAL_CLASS_SIZE": {
+      "kind": "factor",
+      "source": "FUND_LIPPER_GLOBAL_CLASS_SIZE",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_WEIGHTED_AVG_ESG_SCORE": {
+      "kind": "factor",
+      "source": "FUND_WEIGHTED_AVG_ESG_SCORE",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_WEIGHTED_AVG_SCORE_PCTL_PEER": {
+      "kind": "factor",
+      "source": "FUND_WEIGHTED_AVG_SCORE_PCTL_PEER",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_ESG_QUALITY_SCORE": {
+      "kind": "factor",
+      "source": "FUND_ESG_QUALITY_SCORE",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_ESG_QUALITY_SCORE_PCTL_PEER": {
+      "kind": "factor",
+      "source": "FUND_ESG_QUALITY_SCORE_PCTL_PEER",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "ESG_ENVIRONMENTAL_SCORE": {
+      "kind": "factor",
+      "source": "ESG_ENVIRONMENTAL_SCORE",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "ESG_SOCIAL_SCORE": {
+      "kind": "factor",
+      "source": "ESG_SOCIAL_SCORE",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "ESG_GOVERNANCE_SCORE": {
+      "kind": "factor",
+      "source": "ESG_GOVERNANCE_SCORE",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_ESG_COVERAGE": {
+      "kind": "factor",
+      "source": "FUND_ESG_COVERAGE",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_ESG_COVERAGE_OVERALL": {
+      "kind": "factor",
+      "source": "FUND_ESG_COVERAGE_OVERALL",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_WEIGHTED_AVG_CARBON_INTEN": {
+      "kind": "factor",
+      "source": "FUND_WEIGHTED_AVG_CARBON_INTEN",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_WEIGHTED_AVG_CARBON_INTEN_COVERAGE": {
+      "kind": "factor",
+      "source": "FUND_WEIGHTED_AVG_CARBON_INTEN_COVERAGE",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_WEIGHTED_AVG_SOV_CARBON_INTEN": {
+      "kind": "factor",
+      "source": "FUND_WEIGHTED_AVG_SOV_CARBON_INTEN",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_WEIGHTED_AVG_SOV_CARBON_INTEN_COVERAGE": {
+      "kind": "factor",
+      "source": "FUND_WEIGHTED_AVG_SOV_CARBON_INTEN_COVERAGE",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_FINANCED_CARBON_EMISSIONS": {
+      "kind": "factor",
+      "source": "FUND_FINANCED_CARBON_EMISSIONS",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_FINANCED_CARBON_EMISSIONS_COVERAGE": {
+      "kind": "factor",
+      "source": "FUND_FINANCED_CARBON_EMISSIONS_COVERAGE",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_ESG_RATING": {
+      "kind": "factor",
+      "source": "FUND_ESG_RATING",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "ESG_RATING_AAA": {
+      "kind": "factor",
+      "source": "ESG_RATING_AAA",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "ESG_RATING_AA": {
+      "kind": "factor",
+      "source": "ESG_RATING_AA",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "ESG_RATING_A": {
+      "kind": "factor",
+      "source": "ESG_RATING_A",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "ESG_RATING_BBB": {
+      "kind": "factor",
+      "source": "ESG_RATING_BBB",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "ESG_RATING_BB": {
+      "kind": "factor",
+      "source": "ESG_RATING_BB",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "ESG_RATING_B": {
+      "kind": "factor",
+      "source": "ESG_RATING_B",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "ESG_RATING_CCC": {
+      "kind": "factor",
+      "source": "ESG_RATING_CCC",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_THERMAL_COAL_MODER_RESTRICT_PCT": {
+      "kind": "factor",
+      "source": "FUND_THERMAL_COAL_MODER_RESTRICT_PCT",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_THERMAL_COAL_HIGH_RESTRICT_PCT": {
+      "kind": "factor",
+      "source": "FUND_THERMAL_COAL_HIGH_RESTRICT_PCT",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_UNGC_COMPLIANCE_VIOLATION_PCT": {
+      "kind": "factor",
+      "source": "FUND_UNGC_COMPLIANCE_VIOLATION_PCT",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_CM_TIE_PCT": {
+      "kind": "factor",
+      "source": "FUND_CM_TIE_PCT",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_LM_TIE_PCT": {
+      "kind": "factor",
+      "source": "FUND_LM_TIE_PCT",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_ESG_TREND_NONE_PCT": {
+      "kind": "factor",
+      "source": "FUND_ESG_TREND_NONE_PCT",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_ESG_TREND_POSITIVE_PCT": {
+      "kind": "factor",
+      "source": "FUND_ESG_TREND_POSITIVE_PCT",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_ESG_TREND_NEGATIVE_PCT": {
+      "kind": "factor",
+      "source": "FUND_ESG_TREND_NEGATIVE_PCT",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_ESG_TREND_STABLE_PCT": {
+      "kind": "factor",
+      "source": "FUND_ESG_TREND_STABLE_PCT",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_ESG_LEADERS_PCT": {
+      "kind": "factor",
+      "source": "FUND_ESG_LEADERS_PCT",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_ESG_LAGGARDS_PCT": {
+      "kind": "factor",
+      "source": "FUND_ESG_LAGGARDS_PCT",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_SUSTAINABLE_IMPACT_INVOLV_PCT": {
+      "kind": "factor",
+      "source": "FUND_SUSTAINABLE_IMPACT_INVOLV_PCT",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_SUSTAINABLE_IMPACT_PCT": {
+      "kind": "factor",
+      "source": "FUND_SUSTAINABLE_IMPACT_PCT",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_SOCIAL_IMPACT_INVOLV_PCT": {
+      "kind": "factor",
+      "source": "FUND_SOCIAL_IMPACT_INVOLV_PCT",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_SOCIAL_IMPACT_PCT": {
+      "kind": "factor",
+      "source": "FUND_SOCIAL_IMPACT_PCT",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_CLEAN_TECH_INVOLV_PCT": {
+      "kind": "factor",
+      "source": "FUND_CLEAN_TECH_INVOLV_PCT",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_CLEAN_TECH_PCT": {
+      "kind": "factor",
+      "source": "FUND_CLEAN_TECH_PCT",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_FOSSIL_FUEL_RESERVES_PCT": {
+      "kind": "factor",
+      "source": "FUND_FOSSIL_FUEL_RESERVES_PCT",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_THERMAL_COAL_RESERVES": {
+      "kind": "factor",
+      "source": "FUND_THERMAL_COAL_RESERVES",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_LCT_CAT_ASSET_STRAND_PCT": {
+      "kind": "factor",
+      "source": "FUND_LCT_CAT_ASSET_STRAND_PCT",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_LCT_CAT_NEUTRAL_PCT": {
+      "kind": "factor",
+      "source": "FUND_LCT_CAT_NEUTRAL_PCT",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_LCT_CAT_OPERAT_TRANSITION_PCT": {
+      "kind": "factor",
+      "source": "FUND_LCT_CAT_OPERAT_TRANSITION_PCT",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_LCT_CAT_PRODUCT_TRANSITION_PCT": {
+      "kind": "factor",
+      "source": "FUND_LCT_CAT_PRODUCT_TRANSITION_PCT",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_LCT_CAT_SOLUTIONS_PCT": {
+      "kind": "factor",
+      "source": "FUND_LCT_CAT_SOLUTIONS_PCT",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_LOW_CARBON_TRANSITION": {
+      "kind": "factor",
+      "source": "FUND_LOW_CARBON_TRANSITION",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_LOW_CARBON_TRANS_SCORE_COVERAGE": {
+      "kind": "factor",
+      "source": "FUND_LOW_CARBON_TRANS_SCORE_COVERAGE",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_IMPLIED_TEMP_RISE": {
+      "kind": "factor",
+      "source": "FUND_IMPLIED_TEMP_RISE",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_IMPLIED_TEMP_RISE_COVERAGE": {
+      "kind": "factor",
+      "source": "FUND_IMPLIED_TEMP_RISE_COVERAGE",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_REV_EXP_EST_EU_TAXONOMY_MAX_REV": {
+      "kind": "factor",
+      "source": "FUND_REV_EXP_EST_EU_TAXONOMY_MAX_REV",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_SFDR_ACTIVE_FF_SECTOR_EXPOSURE": {
+      "kind": "factor",
+      "source": "FUND_SFDR_ACTIVE_FF_SECTOR_EXPOSURE",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_ALT_ENERGY_INVOLV_PCT": {
+      "kind": "factor",
+      "source": "FUND_ALT_ENERGY_INVOLV_PCT",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_ALT_ENERGY_PCT": {
+      "kind": "factor",
+      "source": "FUND_ALT_ENERGY_PCT",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_ENERGY_EFF_INVOLV_PCT": {
+      "kind": "factor",
+      "source": "FUND_ENERGY_EFF_INVOLV_PCT",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_ENERGY_EFF_PCT": {
+      "kind": "factor",
+      "source": "FUND_ENERGY_EFF_PCT",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_VERY_SEVERE_ENV_CONTROVERSY_PCT": {
+      "kind": "factor",
+      "source": "FUND_VERY_SEVERE_ENV_CONTROVERSY_PCT",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_HIGH_IMPACT_FOSSIL_FUEL_RESERVES_PCT": {
+      "kind": "factor",
+      "source": "FUND_HIGH_IMPACT_FOSSIL_FUEL_RESERVES_PCT",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_CARBON_SCOPE_12_INTEN_3Y_TREND_M_NON_DETER": {
+      "kind": "factor",
+      "source": "FUND_CARBON_SCOPE_12_INTEN_3Y_TREND_M_NON_DETER",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_CARBON_SCOPE_12_INTEN_3Y_TREND_M_IMPROV": {
+      "kind": "factor",
+      "source": "FUND_CARBON_SCOPE_12_INTEN_3Y_TREND_M_IMPROV",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_CARBON_SCOPE_12_INTEN_3Y_TREND_M_STABLE": {
+      "kind": "factor",
+      "source": "FUND_CARBON_SCOPE_12_INTEN_3Y_TREND_M_STABLE",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_CARBON_SCOPE_12_INTEN_3Y_TREND_M_WORSE": {
+      "kind": "factor",
+      "source": "FUND_CARBON_SCOPE_12_INTEN_3Y_TREND_M_WORSE",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_CBN_RENEW_ENER_USE_M": {
+      "kind": "factor",
+      "source": "FUND_CBN_RENEW_ENER_USE_M",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_SRI_EXCLUSION_CRITERIA_PCT": {
+      "kind": "factor",
+      "source": "FUND_SRI_EXCLUSION_CRITERIA_PCT",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_ESG_ENV_SCORE_AVG_PEER": {
+      "kind": "factor",
+      "source": "FUND_ESG_ENV_SCORE_AVG_PEER",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_ESG_SOCIAL_SCORE_AVG_PEER": {
+      "kind": "factor",
+      "source": "FUND_ESG_SOCIAL_SCORE_AVG_PEER",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_ESG_GOV_SCORE_AVG_PEER": {
+      "kind": "factor",
+      "source": "FUND_ESG_GOV_SCORE_AVG_PEER",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FP_REG_FRAME_SFDR_ART6": {
+      "kind": "factor",
+      "source": "FP_REG_FRAME_SFDR_ART6",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FP_REG_FRAME_SFDR_ART8": {
+      "kind": "factor",
+      "source": "FP_REG_FRAME_SFDR_ART8",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FP_REG_FRAME_SFDR_ART9": {
+      "kind": "factor",
+      "source": "FP_REG_FRAME_SFDR_ART9",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_CONTR_WEAP_TIE_PCT": {
+      "kind": "factor",
+      "source": "FUND_CONTR_WEAP_TIE_PCT",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_WEAP_BIO_CHEM_TIE_PCT": {
+      "kind": "factor",
+      "source": "FUND_WEAP_BIO_CHEM_TIE_PCT",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_SFDR_CONTRO_WEAP_CBLMBW_ANYTIE": {
+      "kind": "factor",
+      "source": "FUND_SFDR_CONTRO_WEAP_CBLMBW_ANYTIE",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_AE_MODER_RESTRICT_PCT": {
+      "kind": "factor",
+      "source": "FUND_AE_MODER_RESTRICT_PCT",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_GAM_MODER_RESTRICT_PCT": {
+      "kind": "factor",
+      "source": "FUND_GAM_MODER_RESTRICT_PCT",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_TOB_HIGH_RESTRICT_PCT": {
+      "kind": "factor",
+      "source": "FUND_TOB_HIGH_RESTRICT_PCT",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_OIL_GAS_ANY_TIE": {
+      "kind": "factor",
+      "source": "FUND_OIL_GAS_ANY_TIE",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_SFDR_PROD_CHEM": {
+      "kind": "factor",
+      "source": "FUND_SFDR_PROD_CHEM",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_PALM_TIE_PCT": {
+      "kind": "factor",
+      "source": "FUND_PALM_TIE_PCT",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_PALM_MODER_RESTRICT_PCT": {
+      "kind": "factor",
+      "source": "FUND_PALM_MODER_RESTRICT_PCT",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_PALM_HIGH_RESTRICT_PCT": {
+      "kind": "factor",
+      "source": "FUND_PALM_HIGH_RESTRICT_PCT",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_TOB_TIE_PCT": {
+      "kind": "factor",
+      "source": "FUND_TOB_TIE_PCT",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_TOB_MODER_RESTRICT_PCT": {
+      "kind": "factor",
+      "source": "FUND_TOB_MODER_RESTRICT_PCT",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_THERMAL_COAL_TIE_PCT": {
+      "kind": "factor",
+      "source": "FUND_THERMAL_COAL_TIE_PCT",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_ENVIRONMENT_CONTROVERSY_PCT": {
+      "kind": "factor",
+      "source": "FUND_ENVIRONMENT_CONTROVERSY_PCT",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_SFDR_GHG_INTENSITY": {
+      "kind": "factor",
+      "source": "FUND_SFDR_GHG_INTENSITY",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_SFDR_GHG_INTENSITY_COV": {
+      "kind": "factor",
+      "source": "FUND_SFDR_GHG_INTENSITY_COV",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_HAS_SBTI_APPROVED_TARGET": {
+      "kind": "factor",
+      "source": "FUND_HAS_SBTI_APPROVED_TARGET",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_HAS_SBTI_APPROVED_TARGET_COV": {
+      "kind": "factor",
+      "source": "FUND_HAS_SBTI_APPROVED_TARGET_COV",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_SFDR_OPS_PROT_BIODIV_CONTROVS": {
+      "kind": "factor",
+      "source": "FUND_SFDR_OPS_PROT_BIODIV_CONTROVS",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_SFDR_OPS_PROT_BIODIV_CONTROVS_COV": {
+      "kind": "factor",
+      "source": "FUND_SFDR_OPS_PROT_BIODIV_CONTROVS_COV",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_SFDR_GENDER_PAY_GAP_RATIO": {
+      "kind": "factor",
+      "source": "FUND_SFDR_GENDER_PAY_GAP_RATIO",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_SFDR_GENDER_PAY_GAP_RATIO_COV": {
+      "kind": "factor",
+      "source": "FUND_SFDR_GENDER_PAY_GAP_RATIO_COV",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_LABOR_RIGHTS_CONTROVERSY_PCT": {
+      "kind": "factor",
+      "source": "FUND_LABOR_RIGHTS_CONTROVERSY_PCT",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_SFDR_CONTR_DISCRIMINATION_DIV_N_SEVERE": {
+      "kind": "factor",
+      "source": "FUND_SFDR_CONTR_DISCRIMINATION_DIV_N_SEVERE",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_SFDR_CONTR_DISCRIMINATION_DIV_N_SEVERE_COV": {
+      "kind": "factor",
+      "source": "FUND_SFDR_CONTR_DISCRIMINATION_DIV_N_SEVERE_COV",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_DIVERSITY_PROGRAMS_M": {
+      "kind": "factor",
+      "source": "FUND_DIVERSITY_PROGRAMS_M",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_HUMAN_CAPITAL_DEV_MGMT_SCORE": {
+      "kind": "factor",
+      "source": "FUND_HUMAN_CAPITAL_DEV_MGMT_SCORE",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_HUMAN_CAPITAL_DEV_MGMT_SCORE_COVERAGE": {
+      "kind": "factor",
+      "source": "FUND_HUMAN_CAPITAL_DEV_MGMT_SCORE_COVERAGE",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_SFDR_VIOLATIONS_UNGC_OECD": {
+      "kind": "factor",
+      "source": "FUND_SFDR_VIOLATIONS_UNGC_OECD",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_SFDR_VIOLATIONS_UNGC_OECD_COV": {
+      "kind": "factor",
+      "source": "FUND_SFDR_VIOLATIONS_UNGC_OECD_COV",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_SFDR_MECH_UN_GLOBAL_COMPACT": {
+      "kind": "factor",
+      "source": "FUND_SFDR_MECH_UN_GLOBAL_COMPACT",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_SFDR_MECH_UN_GLOBAL_COMPACT_COV": {
+      "kind": "factor",
+      "source": "FUND_SFDR_MECH_UN_GLOBAL_COMPACT_COV",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_CONTR_HEALTH_SAFETY_M": {
+      "kind": "factor",
+      "source": "FUND_CONTR_HEALTH_SAFETY_M",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_SFDR_TRIR": {
+      "kind": "factor",
+      "source": "FUND_SFDR_TRIR",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_SFDR_TRIR_COV": {
+      "kind": "factor",
+      "source": "FUND_SFDR_TRIR_COV",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_CONTR_CONTROVERSIAL_WORKPLACE_M": {
+      "kind": "factor",
+      "source": "FUND_CONTR_CONTROVERSIAL_WORKPLACE_M",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_BOARD_INDEP_0_25PCT": {
+      "kind": "factor",
+      "source": "FUND_BOARD_INDEP_0_25PCT",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_SFDR_FEMALE_DIRECTORS_PCT": {
+      "kind": "factor",
+      "source": "FUND_SFDR_FEMALE_DIRECTORS_PCT",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_OWNERSHIP_FLAG_PCT": {
+      "kind": "factor",
+      "source": "FUND_OWNERSHIP_FLAG_PCT",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_PAY_CONTROVERSY": {
+      "kind": "factor",
+      "source": "FUND_PAY_CONTROVERSY",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_SFDR_CORR_BRIB_CONVICTIONS_COUNT": {
+      "kind": "factor",
+      "source": "FUND_SFDR_CORR_BRIB_CONVICTIONS_COUNT",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_SFDR_CORR_BRIB_POLICY_UN": {
+      "kind": "factor",
+      "source": "FUND_SFDR_CORR_BRIB_POLICY_UN",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    },
+    "FUND_SFDR_CORR_BRIB_POLICY_UN_COV": {
+      "kind": "factor",
+      "source": "FUND_SFDR_CORR_BRIB_POLICY_UN_COV",
+      "provenance": "Mapping fourni et regles de projet; disponibilite a verifier via API."
+    }
+  }
+}

@@ -1,0 +1,16 @@
+README.md
+pyproject.toml
+src/msci_enrichment/__init__.py
+src/msci_enrichment/cli.py
+src/msci_enrichment/client.py
+src/msci_enrichment/diagnostics.py
+src/msci_enrichment/excel.py
+src/msci_enrichment/pipeline.py
+src/msci_enrichment.egg-info/PKG-INFO
+src/msci_enrichment.egg-info/SOURCES.txt
+src/msci_enrichment.egg-info/dependency_links.txt
+src/msci_enrichment.egg-info/entry_points.txt
+src/msci_enrichment.egg-info/requires.txt
+src/msci_enrichment.egg-info/top_level.txt
+tests/test_project.py
+tests/test_revision.py
